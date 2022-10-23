@@ -2,7 +2,7 @@ package com.bobocode.petros.hotelservice;
 
 import com.bobocode.petros.hotelservice.proto.*;
 import com.boboode.petros.hotelservice.entity.Hotel;
-import com.boboode.petros.hotelservice.entity.HotelCharacterization;
+import com.boboode.petros.hotelservice.entity.ClientHotelRequest;
 import com.boboode.petros.hotelservice.usecase.GetHotelsUseCase;
 import com.google.protobuf.Timestamp;
 import io.grpc.stub.StreamObserver;
@@ -47,8 +47,8 @@ public class GetHotelsServiceGrpc extends HotelServiceGrpc.HotelServiceImplBase 
                 .build();
     }
 
-    private HotelCharacterization toHotelCharacterization(HotelRequest request) {
-        return HotelCharacterization.builder()
+    private ClientHotelRequest toHotelCharacterization(HotelRequest request) {
+        return ClientHotelRequest.builder()
                 .country(request.getCountry())
                 .city(request.getCity())
                 .startDate(LocalDateTime.ofEpochSecond(request.getStartDate().getSeconds(), request.getStartDate().getNanos(), ZoneOffset.UTC).toLocalDate())

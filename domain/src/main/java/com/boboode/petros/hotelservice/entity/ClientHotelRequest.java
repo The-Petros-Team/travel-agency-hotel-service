@@ -5,5 +5,5 @@ import lombok.Builder;
 import java.time.LocalDate;
 
 @Builder
-public record HotelCharacterization(String country, String city, LocalDate startDate, LocalDate endDate) {
+public record ClientHotelRequest(String country, String city, LocalDate startDate, LocalDate endDate) {
 }
