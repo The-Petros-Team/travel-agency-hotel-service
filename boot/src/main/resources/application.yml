@@ -2,4 +2,4 @@ spring:
   application:
     name: hotel-service
   config:
-    import=optional:configserver: https://travel-agency-config-server.herokuapp.com/
+    import: configserver:https://travel-agency-config-server.herokuapp.com/
