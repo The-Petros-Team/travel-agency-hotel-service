@@ -1,18 +1,18 @@
-package com.bobocode.petros.hotelservice;
+package com.bobocode.petros.hotelservice.generator;
 
 import com.boboode.petros.hotelservice.adapter.HotelGeneratorAdapter;
-import com.boboode.petros.hotelservice.entity.Hotel;
 import com.boboode.petros.hotelservice.entity.ClientHotelRequest;
+import com.boboode.petros.hotelservice.entity.Hotel;
 import com.boboode.petros.hotelservice.entity.Price;
 import com.boboode.petros.hotelservice.entity.enumeration.Currency;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-@Service
+@Component
 public class HotelGeneratorServiceImpl implements HotelGeneratorAdapter {
     @Override
     public List<Hotel> generateHotelsByCharacterization(ClientHotelRequest characterization) {
