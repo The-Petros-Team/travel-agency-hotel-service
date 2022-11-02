@@ -1,9 +1,9 @@
 package com.bobocode.petros.hotelservice;
 
 import com.bobocode.petros.hotelservice.proto.*;
-import com.boboode.petros.hotelservice.entity.Hotel;
-import com.boboode.petros.hotelservice.entity.ClientHotelRequest;
-import com.boboode.petros.hotelservice.usecase.GetHotelsUseCase;
+import com.bobocode.petros.hotelservice.entity.Hotel;
+import com.bobocode.petros.hotelservice.entity.ClientHotelRequest;
+import com.bobocode.petros.hotelservice.usecase.GetHotelsUseCase;
 import com.google.protobuf.Timestamp;
 import io.grpc.stub.StreamObserver;
 import lombok.RequiredArgsConstructor;

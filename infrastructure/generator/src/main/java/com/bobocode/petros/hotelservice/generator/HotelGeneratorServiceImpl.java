@@ -1,10 +1,10 @@
 package com.bobocode.petros.hotelservice.generator;
 
-import com.boboode.petros.hotelservice.adapter.HotelGeneratorAdapter;
-import com.boboode.petros.hotelservice.entity.ClientHotelRequest;
-import com.boboode.petros.hotelservice.entity.Hotel;
-import com.boboode.petros.hotelservice.entity.Price;
-import com.boboode.petros.hotelservice.entity.enumeration.Currency;
+import com.bobocode.petros.hotelservice.adapter.HotelGeneratorAdapter;
+import com.bobocode.petros.hotelservice.entity.ClientHotelRequest;
+import com.bobocode.petros.hotelservice.entity.Hotel;
+import com.bobocode.petros.hotelservice.entity.Price;
+import com.bobocode.petros.hotelservice.entity.enumeration.Currency;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

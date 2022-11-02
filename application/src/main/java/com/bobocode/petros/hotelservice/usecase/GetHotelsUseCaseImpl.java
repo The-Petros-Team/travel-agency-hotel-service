@@ -1,9 +1,8 @@
 package com.bobocode.petros.hotelservice.usecase;
 
-import com.boboode.petros.hotelservice.adapter.HotelGeneratorAdapter;
-import com.boboode.petros.hotelservice.entity.ClientHotelRequest;
-import com.boboode.petros.hotelservice.entity.Hotel;
-import com.boboode.petros.hotelservice.usecase.GetHotelsUseCase;
+import com.bobocode.petros.hotelservice.adapter.HotelGeneratorAdapter;
+import com.bobocode.petros.hotelservice.entity.ClientHotelRequest;
+import com.bobocode.petros.hotelservice.entity.Hotel;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

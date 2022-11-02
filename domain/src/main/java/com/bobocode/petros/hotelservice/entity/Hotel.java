@@ -1,4 +1,4 @@
-package com.boboode.petros.hotelservice.entity;
+package com.bobocode.petros.hotelservice.entity;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.boboode.petros.hotelservice.entity;
+package com.bobocode.petros.hotelservice.entity;
 
-import com.boboode.petros.hotelservice.entity.enumeration.Currency;
+import com.bobocode.petros.hotelservice.entity.enumeration.Currency;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
